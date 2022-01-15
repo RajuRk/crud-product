@@ -1,0 +1,117 @@
+.navbar-expand-lg .navbar-collapse {
+  justify-content: space-between;
+}
+img {
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  border: 1px solid #e3e3e3;
+  padding: 0!important;
+  box-shadow: 0px 0px 4px 1px #e3e3e3;
+  background: #ffffffc2;
+}
+#root{
+  background-image: url(./images/background-banner.jpg);
+  /* background-size: cover; */
+  background-position: center center;
+  /* height: 100%; */
+}
+.itemCart {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 5px 2px #e8e8e8;
+  padding: 12px;
+  margin: 7px 0;
+  gap: 15px;
+  background-color: #fff;
+}
+.itemList img{
+  width: 300px;
+}
+.itemList {
+  margin: 5px 9px;
+  box-shadow: 0px 0px 5px 1px #ededed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+.itemList p {
+  color: #000;
+}
+.pageTitle h2{
+  margin: 10px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar-brand{
+  color: #fff!important;
+  font-size: 30px!important;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.itemShow{
+  max-width: 300px;
+  text-align: center;
+  border: 1px solid #d9d9d9;
+  box-shadow: 1px 1px 3px 0px #d9d9d9;
+  border-radius: 5px;
+  margin: 8px auto;
+  color: #212529;
+  background-color: #fff;
+}
+.itemImg img{
+  width: 300px;
+}
+.itemPrice button{
+  width: 120px;
+}
+.itemPrice{
+  text-align: center;
+}
+.itemTitle p{
+  justify-content: center;
+}
+.navbar-nav a{
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar a{
+  text-decoration: none;
+}
+.itemSec{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  height: 100vh;
+}
+.itemSec a{
+  text-decoration: none;
+}
+.placeholder-wrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 12px 12px;
+}
+.placeholder-wrapper button{
+  margin: 7px 0;
+}
+.product-price span{
+  font-size: 30px;
+  font-weight: 600;
+}
+.itemCard h2{
+  text-align: center;
+  margin: 15px;
+}
